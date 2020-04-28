@@ -61,7 +61,7 @@ public class BankAccount extends PanacheEntityBase implements Serializable {
     @Override
     public String toString() {
         return "BankAccount{" +
-            "id=" + id +
+            " id=" + id +
             ", name='" + name + "'" +
             ", balance=" + balance +
             "}";
